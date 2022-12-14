@@ -97,8 +97,8 @@
 
         const addClassToTitle = function () {
 
-            const title = document.getElementsByTagName("h1")[0]
-            title.setAttribute("class", "myHeading")
+            const titlec = document.getElementsByTagName("h1")[0]
+            titlec.setAttribute("class", "myHeading")
         }
 
         /* ESERCIZIO 3
@@ -118,8 +118,8 @@
           */
 
         const changeUrls = function () {
-            const link = document.getElementsByTagName('a')[0].href;
-
+            const link = document.getElementsByTagName('a')[0];
+            link.setAttribute("href", "https://www.google.com")
         }
         changeUrls()
 
@@ -156,7 +156,7 @@
         */
 
         const hideFirstUl = function () {
-            const title = document.getElementsByTagName("#firstList")
+            const titled = document.getElementsByTagName("#firstList")
 
         }
 
